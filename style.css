@@ -15,13 +15,18 @@ footer
 	margin-top: 1em;
 }
 
+.nav-col a, .mode-col a
+{
+	font-size: 1.1em;
+	color: black;
+}
+
 .nav-col
 {
 	border-right: 4px solid #b30000;
 }
 
-.nav-col a
+.mode-col
 {
-	font-size: 1.25em;
-	color: black;
+	border-left: 4px solid #b30000;
 }
