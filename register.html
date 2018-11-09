@@ -32,13 +32,23 @@
 				<img class="" alt="Movie Recommender" src="LOGOWITHTITLE.png" style="margin-left: 10em;"></img>
 				<input class="form-control" type="text" placeholder="Search..." style="width: 30%; min-width: 10em; position: absolute; top: 2em; right: 10%;">
 			</header>
-			<div class="container-fluid">
-				<div class="row" style="margin-top: 12em; font-size: 1.5em;"> <!-- Call to action -->
-					<div class="span6" style="float: none; margin: 0 auto;">
-						<p style="text-align: center;">Don't know what to watch? </br> Get high quality recommendations for movies and TV shows that you'll love!</p></br>
-						<p style="text-align: center;"><a class="btn btn-danger btn-lg" href="register.html">REGISTER AS NEW USER</a> or <a class="btn btn-danger btn-md" href="login.html">LOGIN AS EXISTING USER</a></p>
-					</div>
-				</div>
+			<div style="margin-top: 8em;"> <!-- Registration form -->
+				<form action="index.html" style="width: 75%; min-width: 40em; float: none; margin: 0 auto;">
+					<label for="forename">First name:</label>
+					<input type="text" name="forename" id="forename" class="form-control"></br>
+					<label for="surname">Last name:</label>
+					<input type="text" name="surname" id="surname" class="form-control"></br>
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" class="form-control"></br>
+					<label for="phone">Phone:</label>
+					<input type="tel" name="phone" id="phone" class="form-control"></br>
+					<label for="password">Password:</label>
+					<input type="password" name="password" id="password" class="form-control"></br>
+					<label for="confirmPassword">Confirm password:</label>
+					<input type="password" name="confirmPassword" id="confirmPassword" class="form-control"></br>
+					</br>
+					<input type="submit" class="btn btn-danger btn-lg" style="width: 100%" value="Register">
+				</form>
 			</div>
 		</main>
 	</div>
