@@ -14,3 +14,14 @@ footer
 {
 	margin-top: 1em;
 }
+
+.nav-col
+{
+	border-right: 4px solid #b30000;
+}
+
+.nav-col a
+{
+	font-size: 1.25em;
+	color: black;
+}
