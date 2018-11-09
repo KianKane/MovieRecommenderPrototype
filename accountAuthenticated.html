@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="shortcut icon" href="LOGO.png"/>
+	<title>Movie Recommender - Account</title>
+</head>
+<body>
+	<div class="page">
+		<span class="menu_toggle">
+			<i class="menu_open fa fa-bars fa-lg"></i>
+			<i class="menu_close fa fa-times fa-lg"></i>
+		</span>
+		<ul class="menu_items">
+			<li><a href="indexAuthenticated.html">Home</a></li>
+			<li><a href="accountAuthenticated.html">Account</a></li>
+			<li><a href="index.html">Logout</a></li>
+			<li><a href="supportAuthenticated.html">Support</a></li>
+		</ul>
+		<main class="content">
+			<header>
+				<img class="" alt="Movie Recommender" src="LOGOWITHTITLE.png" style="margin-left: 10em;"></img>
+				<input class="form-control" type="text" placeholder="Search..." style="width: 30%; min-width: 10em; position: absolute; top: 2em; right: 10%;">
+				<img alt="It's you!" src="avatar.jpg" style="position: absolute; width: 6em; right: 1em; top: 0.5em;"></img>
+			</header>
+			<div class="container-fluid">
+			
+				<h4>Change Name</h4>
+				<form action="accountAuthenticated.html" style="width: 75%; min-width: 40em; float: none; margin-left: 2em;">
+					<label for="oldPasswordChangeName">Re-enter password:</label>
+					<input type="password" name="oldPassword" id="oldPasswordChangeName" class="form-control"></br>
+					<label for="forenameChangeName">New first name:</label>
+					<input type="text" name="forename" id="forenameChangeName" class="form-control"></br>
+					<label for="surnameChangeName">New last name:</label>
+					<input type="text" name="surname" id="surnameChangeName" class="form-control"></br>
+					<input type="submit" class="btn btn-danger btn-lg" value="Change Name">
+				</form>
+				
+				<h4>Change Phone Number</h4>
+				<form action="accountAuthenticated.html" style="width: 75%; min-width: 40em; float: none; margin-left: 2em;">
+					<label for="oldPasswordPhoneChange">Re-enter password:</label>
+					<input type="password" name="oldPassword" id="oldPasswordPhoneChange" class="form-control"></br>
+					<label for="phonePhoneChange">New phone number:</label>
+					<input type="tel" name="phone" id="phonePhoneChange" class="form-control"></br>
+					<input type="submit" class="btn btn-danger btn-lg" value="Change Phone Number">
+				</form>
+				<h4>Change Password</h4>
+				<form action="accountAuthenticated.html" style="width: 75%; min-width: 40em; float: none; margin-left: 2em;">
+					<label for="oldPasswordPasswordChange">Re-enter old password:</label>
+					<input type="password" name="oldPassword" id="oldPasswordPasswordChange" class="form-control"></br>
+					<label for="passwordPasswordChange">New password:</label>
+					<input type="password" name="password" id="passwordPasswordChange" class="form-control"></br>
+					<label for="confirmPasswordPasswordChange">Confirm password:</label>
+					<input type="password" name="confirmPassword" id="confirmPasswordPasswordChange" class="form-control"></br>
+					</br>
+					<input type="submit" class="btn btn-danger btn-lg" value="Change Password">
+				</form>
+				<h4>Delete Account</h4>
+				<p>We'll miss you!</p>
+				<form action="index.html" style="width: 75%; min-width: 40em; float: none; margin-left: 2em;">
+					<label for="oldPasswordDelete">Re-enter password:</label>
+					<input type="password" name="oldPassword" id="oldPasswordDelete" class="form-control"></br>
+					<input type="submit" class="btn btn-danger" value="Delete Account Forever">
+				</form>
+			</div>
+		</main>
+	</div>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script  src="js/index.js"></script>
+</body>
+</html>
