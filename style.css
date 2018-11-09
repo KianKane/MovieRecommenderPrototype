@@ -1,0 +1,15 @@
+header, footer
+{
+	background-color: #b30000;
+	color: white;
+}
+
+header
+{
+	margin-bottom: 1em;
+}
+
+footer
+{
+	margin-top: 1em;
+}
