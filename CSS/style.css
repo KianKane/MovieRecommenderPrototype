@@ -4,8 +4,8 @@
 
 html,
 body {
-  height: 100%;
-  overflow: hidden;
+  /*height: 100%;
+  overflow: hidden;*/
 }
 
 .page {
@@ -327,7 +327,7 @@ html {
 
 
 .nav-toggle:before {
-  color: #f8d800; /* Edit this to change the icon color */ oisebhf
+  color: #f8d800; /* Edit this to change the icon color */
   font-family: "responsivenav", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -349,12 +349,9 @@ html {
   font-size: 24px;
   content:"x";
 }
+
 body {
-    background-image: url("http://content.acclaimmag.com/content/uploads/2017/03/post-malone-feature.jpg");
-	background-repeat: no-repeat;
-background-position: right top;
-background-size: cover;
-background-color: #25262B;
+background-color: #584E4A;
 }
 
 div.gallery {
